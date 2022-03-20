@@ -1,0 +1,51 @@
+#main{
+	position: absolute;
+	left: 30%;
+	top: 0%;
+    border: solid;
+}
+ul {
+	position: absolute;
+	padding-left: 20px;
+  list-style-type: none;
+
+ }
+
+#lin{
+ 	 width: 150px;
+ 	 background-color: powderblue;
+ 	 border: solid;
+}
+#lin:hover{
+	background-color: gold;
+}
+#subf{
+	visibility: hidden;
+	position: absolute;
+	left: 100px;
+	top: 0px;
+}
+#subf:hover{
+	visibility: visible;
+}
+
+
+#four:hover{
+	background-color: gold;
+}
+#four:hover + #subf{
+	visibility: visible;
+
+}
+
+#four{
+
+	border: solid;
+	width: 100px;
+  background-color: powderblue;
+
+}
+
+
+
+
